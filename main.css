@@ -1,3 +1,4 @@
+
 body {
   color: #222;
   font-family: "Roboto", sans-serif;
@@ -9,6 +10,14 @@ body {
    color: black; 
    text-decoration: none;
  }
+ 
+ .nav-menu-item:hover,
+ .title-anchor:hover,
+ a:hover
+  {
+    color: rgba(218, 103, 92, 0.973);
+    border-bottom-color: rgba(218, 103, 92, 0.973);
+  }
  
  h1 {
    font-size: 50px; }
@@ -94,7 +103,18 @@ body {
   margin-bottom: 100px;
  }
  
+ .projects-info {
+  margin-top: 70px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+ }
+ 
  .work-projects {
+  padding: 0px;
+  margin: 0 auto;
+ }
+ 
+ .personal-projects {
   padding: 0px;
   margin: 0 auto;
  }
@@ -103,7 +123,21 @@ body {
   margin: 0 auto;
  }
  
+ .personal-case-study {
+  margin: 0 auto;
+ }
+ 
  .work-case-study-title {
+   width: 600px;
+   margin-left: 50px;
+ }
+ 
+ .projects-description {
+   width: 600px;
+   margin-left: 50px;
+ }
+ 
+ .personal-project-title {
    width: 600px;
    margin-left: 50px;
  }
@@ -114,7 +148,20 @@ body {
   width: 767px;
  }
  
+ .personal-case-study img {
+ display: block;
+   margin-left: auto;
+   margin-right: auto;
+  height: 403px;
+  width: 767px;
+ }
+ 
  .work-projects-row {
+  margin-top: 70px;
+  margin-left: 50px;
+ }
+ 
+ .personal-projects-row {
   margin-top: 70px;
   margin-left: 50px;
  }
