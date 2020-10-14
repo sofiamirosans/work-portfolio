@@ -81,6 +81,8 @@ body {
    border-bottom: 1px solid black;
    color: solid black;
    text-decoration: none;
+   margin: 0 0 30px;
+   max-width: 600px;
  }
  
  .date {
@@ -91,6 +93,11 @@ body {
  .work-container, .projects-container, .forfun-container {
    margin-top: 70px;
    margin-left: 50px;
+ }
+ 
+ .content {
+   margin: 0 0 30px;
+   max-width: 600px;
  }
  
  .forfun {
